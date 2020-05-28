@@ -1,4 +1,4 @@
-# Arch Linux Installation
+# Arch Linux Installation with systemd-boot
 Arch Linux installation with systemd-boot.
 ### Bootable flash drive
 Download the latest ISO at https://www.archlinux.org/download/ and create a bootable drive following this:
@@ -175,3 +175,7 @@ _note: dont forget the rw at the end. I've been bitten by this a lot of times :f
 `exit`
 `reboot`
 ### AND YOU SHOULD BE GOOD TO GO! ###
+
+### References and many thanks to:
+- https://ricostacruz.com/til/arch-linux-installation-summarized
+- https://wiki.archlinux.org/index.php/installation_guide
