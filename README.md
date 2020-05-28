@@ -134,6 +134,13 @@ create `/etc/hosts` with the following content:
 ```
 passwd root
 ```
+### Install networkmanager
+```
+pacman -S networkmanager
+```
+```
+systemctl enable networkmanager
+```
 ### Install and setup systemd-boot
 ```
 bootctl --path=/boot$esp install
